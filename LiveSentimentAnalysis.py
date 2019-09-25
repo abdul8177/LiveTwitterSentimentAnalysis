@@ -2,10 +2,10 @@ from tweepy import  Stream, OAuthHandler
 from tweepy.streaming import StreamListener
 import json
 import sentiment_mod as s
-ckey = 'MF5d1dEgvieF4jtomRZNGVvbQ'
-csecret = 'XGiPPMGN6TMWkoUeBLJV5zLuZ3cmpJ6zz7rYJv5UTA2yeAeLD2'
-atoken = '389974581-oYfqlHBEWk0JANHP1hfv6np03fRSULcGyNcAYk8Z'
-asecret = 'RAhy9eAzS24pWz1GCVe0myjmRs0ZESXrQJvlRyPI4JQrk'
+ckey = ''
+csecret = ''
+atoken = ''
+asecret = ''
 
 # Listener class
 class listener(StreamListener):
